@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Models>
+	<Model name="restaurant-no_mask" type="coupled" description="coupled cell-DEVS model for restaurant with everyone wearing no mask">
+		<Files>
+			<File name="restaurant-no_mask.json" type="json" location="/Configs/Batch1/"/>
+			<File name="visualization.webm" type="WEBM" location="/Visualization/Batch1/NO_MASK/"/>
+			<File name="messages.log" type="log" location="/Visualization/Batch1/NO_MASK/"/>
+			<File name="options.json" type="json" location="/Visualization/Batch1/NO_MASK/"/>
+			<File name="structure.json" type="json" location="/Visualization/Batch1/NO_MASK/"/>
+			<File name="end.png" type="PNG" location="/Visualization/Batch1/NO_MASK/screenshots/"/>
+			<File name="middle.png" type="PNG" location="/Visualization/Batch1/NO_MASK/screenshots/"/>
+			<File name="start.png" type="PNG" location="/Visualization/Batch1/NO_MASK/screenshots/"/>
+		</Files>
+	</Model>
+
+	<Model name="restaurant-cotton" type="coupled" description="coupled cell-DEVS model for restaurant with everyone wearing cotton masks">
+		<Files>
+			<File name="restaurant-cotton.json" type="json" location="/Configs/Batch1/"/>
+			<File name="visualization.webm" type="WEBM" location="/Visualization/Batch1/COTTON/"/>
+			<File name="messages.log" type="log" location="/Visualization/Batch1/COTTON/"/>
+			<File name="options.json" type="json" location="/Visualization/Batch1/COTTON/"/>
+			<File name="structure.json" type="json" location="/Visualization/Batch1/COTTON/"/>
+			<File name="end.png" type="PNG" location="/Visualization/Batch1/COTTON/screenshots/"/>
+			<File name="middle.png" type="PNG" location="/Visualization/Batch1/COTTON/screenshots/"/>
+			<File name="start.png" type="PNG" location="/Visualization/Batch1/COTTON/screenshots/"/>
+		</Files>
+	</Model>
+
+	<Model name="restaurant-surgical" type="coupled" description="coupled cell-DEVS model for restaurant with everyone wearing surgical masks">
+		<Files>
+			<File name="restaurant-surgical.json" type="json" location="/Configs/Batch1/"/>
+			<File name="visualization.webm" type="WEBM" location="/Visualization/Batch1/SURGICAL/"/>
+			<File name="messages.log" type="log" location="/Visualization/Batch1/SURGICAL/"/>
+			<File name="options.json" type="json" location="/Visualization/Batch1/SURGICAL/"/>
+			<File name="structure.json" type="json" location="/Visualization/Batch1/SURGICAL/"/>
+			<File name="end.png" type="PNG" location="/Visualization/Batch1/SURGICAL/screenshots/"/>
+			<File name="middle.png" type="PNG" location="/Visualization/Batch1/SURGICAL/screenshots/"/>
+			<File name="start.png" type="PNG" location="/Visualization/Batch1/SURGICAL/screenshots/"/>
+		</Files>
+	</Model>
+
+	<Model name="restaurant-N95" type="coupled" description="coupled cell-DEVS model for restaurant with everyone wearing unfitted N95 masks">
+		<Files>
+			<File name="restaurant-N95.json" type="json" location="/Configs/Batch1/"/>
+			<File name="visualization.webm" type="WEBM" location="/Visualization/Batch1/N95/"/>
+			<File name="messages.log" type="log" location="/Visualization/Batch1/N95/"/>
+			<File name="options.json" type="json" location="/Visualization/Batch1/N95/"/>
+			<File name="structure.json" type="json" location="/Visualization/Batch1/N95/"/>
+			<File name="end.png" type="PNG" location="/Visualization/Batch1/N95/screenshots/"/>
+			<File name="middle.png" type="PNG" location="/Visualization/Batch1/N95/screenshots/"/>
+			<File name="start.png" type="PNG" location="/Visualization/Batch1/N95/screenshots/"/>
+		</Files>
+	</Model>
+
+	<Model name="restaurant-N95_fit" type="coupled" description="coupled cell-DEVS model for restaurant with everyone wearing fitted N95 masks">
+		<Files>
+			<File name="restaurant-N95_fit.json" type="json" location="/Configs/Batch1/"/>
+			<File name="visualization.webm" type="WEBM" location="/Visualization/Batch1/N95_FIT/"/>
+			<File name="messages.log" type="log" location="/Visualization/Batch1/N95_FIT/"/>
+			<File name="options.json" type="json" location="/Visualization/Batch1/N95_FIT/"/>
+			<File name="structure.json" type="json" location="/Visualization/Batch1/N95_FIT/"/>
+			<File name="end.png" type="PNG" location="/Visualization/Batch1/N95_FIT/screenshots/"/>
+			<File name="middle.png" type="PNG" location="/Visualization/Batch1/N95_FIT/screenshots/"/>
+			<File name="start.png" type="PNG" location="/Visualization/Batch1/N95_FIT/screenshots/"/>
+		</Files>
+	</Model>
+
+	<Model name="restaurant-cotton-no_mask" type="coupled" description="coupled cell-DEVS model for restaurant with emitter wearing cotton mask and receivers wearing no masks">
+		<Files>
+			<File name="restaurant-cotton-no_mask.json" type="json" location="/Configs/Batch2/source-cotton/"/>
+			<File name="visualization.webm" type="WEBM" location="/Visualization/Batch2/source-COTTON/COTTON-NO_MASK/"/>
+			<File name="messages.log" type="log" location="/Visualization/Batch2/source-COTTON/COTTON-NO_MASK/"/>
+			<File name="options.json" type="json" location="/Visualization/Batch2/source-COTTON/COTTON-NO_MASK/"/>
+			<File name="structure.json" type="json" location="/Visualization/Batch2/source-COTTON/COTTON-NO_MASK/"/>
+			<File name="end.png" type="PNG" location="/Visualization/Batch2/source-COTTON/COTTON-NO_MASK/screenshots/"/>
+			<File name="middle.png" type="PNG" location="/Visualization/Batch2/source-COTTON/COTTON-NO_MASK/screenshots/"/>
+			<File name="start.png" type="PNG" location="/Visualization/Batch2/source-COTTON/COTTON-NO_MASK/screenshots/"/>
+		</Files>
+	</Model>
+
+	<Model name="restaurant-cotton-surgical" type="coupled" description="coupled cell-DEVS model for restaurant with emitter wearing cotton mask and receivers wearing surgical masks">
+		<Files>
+			<File name="restaurant-cotton-surgical.json" type="json" location="/Configs/Batch2/source-cotton/"/>
+			<File name="visualization.webm" type="WEBM" location="/Visualization/Batch2/source-COTTON/COTTON-SURGICAL/"/>
+			<File name="messages.log" type="log" location="/Visualization/Batch2/source-COTTON/COTTON-SURGICAL/"/>
+			<File name="options.json" type="json" location="/Visualization/Batch2/source-COTTON/COTTON-SURGICAL/"/>
+			<File name="structure.json" type="json" location="/Visualization/Batch2/source-COTTON/COTTON-SURGICAL/"/>
+			<File name="end.png" type="PNG" location="/Visualization/Batch2/source-COTTON/COTTON-SURGICAL/screenshots/"/>
+			<File name="middle.png" type="PNG" location="/Visualization/Batch2/source-COTTON/COTTON-SURGICAL/screenshots/"/>
+			<File name="start.png" type="PNG" location="/Visualization/Batch2/source-COTTON/COTTON-SURGICAL/screenshots/"/>
+		</Files>
+	</Model>
+
+	<Model name="restaurant-cotton-N95" type="coupled" description="coupled cell-DEVS model for restaurant with emitter wearing cotton mask and receivers wearing unfitted N95 masks">
+		<Files>
+			<File name="restaurant-cotton-N95.json" type="json" location="/Configs/Batch2/source-cotton/"/>
+			<File name="visualization.webm" type="WEBM" location="/Visualization/Batch2/source-COTTON/COTTON-N95/"/>
+			<File name="messages.log" type="log" location="/Visualization/Batch2/source-COTTON/COTTON-N95/"/>
+			<File name="options.json" type="json" location="/Visualization/Batch2/source-COTTON/COTTON-N95/"/>
+			<File name="structure.json" type="json" location="/Visualization/Batch2/source-COTTON/COTTON-N95/"/>
+			<File name="end.png" type="PNG" location="/Visualization/Batch2/source-COTTON/COTTON-N95/screenshots/"/>
+			<File name="middle.png" type="PNG" location="/Visualization/Batch2/source-COTTON/COTTON-N95/screenshots/"/>
+			<File name="start.png" type="PNG" location="/Visualization/Batch2/source-COTTON/COTTON-N95/screenshots/"/>
+		</Files>
+	</Model>
+
+	<Model name="restaurant-cotton-N95_fit" type="coupled" description="coupled cell-DEVS model for restaurant with emitter wearing cotton mask and receivers wearing fitted N95 masks">
+		<Files>
+			<File name="restaurant-cotton-N95_fit.json" type="json" location="/Configs/Batch2/source-cotton/"/>
+			<File name="visualization.webm" type="WEBM" location="/Visualization/Batch2/source-COTTON/COTTON-N95_FIT/"/>
+			<File name="messages.log" type="log" location="/Visualization/Batch2/source-COTTON/COTTON-N95_FIT/"/>
+			<File name="options.json" type="json" location="/Visualization/Batch2/source-COTTON/COTTON-N95_FIT/"/>
+			<File name="structure.json" type="json" location="/Visualization/Batch2/source-COTTON/COTTON-N95_FIT/"/>
+			<File name="end.png" type="PNG" location="/Visualization/Batch2/source-COTTON/COTTON-N95_FIT/screenshots/"/>
+			<File name="middle.png" type="PNG" location="/Visualization/Batch2/source-COTTON/COTTON-N95_FIT/screenshots/"/>
+			<File name="start.png" type="PNG" location="/Visualization/Batch2/source-COTTON/COTTON-N95_FIT/screenshots/"/>
+		</Files>
+	</Model>
+
+
+	<Model name="restaurant-no_mask-cotton" type="coupled" description="coupled cell-DEVS model for restaurant with emitter wearing no mask and receivers wearing cotton masks">
+		<Files>
+			<File name="restaurant-no_mask-cotton.json" type="json" location="/Configs/Batch2/source-no_mask/"/>
+			<File name="visualization.webm" type="WEBM" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-COTTON/"/>
+			<File name="messages.log" type="log" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-COTTON/"/>
+			<File name="options.json" type="json" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-COTTON/"/>
+			<File name="structure.json" type="json" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-COTTON/"/>
+			<File name="end.png" type="PNG" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-COTTON/screenshots/"/>
+			<File name="middle.png" type="PNG" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-COTTON/screenshots/"/>
+			<File name="start.png" type="PNG" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-COTTON/screenshots/"/>
+		</Files>
+	</Model>
+
+	<Model name="restaurant-no_mask-surgical" type="coupled" description="coupled cell-DEVS model for restaurant with emitter wearing NO mask and receivers wearing surgical masks">
+		<Files>
+			<File name="restaurant-no_mask-surgical.json" type="json" location="/Configs/Batch2/source-no_mask/"/>
+			<File name="visualization.webm" type="WEBM" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-SURGICAL/"/>
+			<File name="messages.log" type="log" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-SURGICAL/"/>
+			<File name="options.json" type="json" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-SURGICAL/"/>
+			<File name="structure.json" type="json" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-SURGICAL/"/>
+			<File name="end.png" type="PNG" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-SURGICAL/screenshots/"/>
+			<File name="middle.png" type="PNG" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-SURGICAL/screenshots/"/>
+			<File name="start.png" type="PNG" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-SURGICAL/screenshots/"/>
+		</Files>
+	</Model>
+
+	<Model name="restaurant-no_mask-N95" type="coupled" description="coupled cell-DEVS model for restaurant with emitter wearing no mask and receivers wearing unfitted N95 masks">
+		<Files>
+			<File name="restaurant-no_mask-N95.json" type="json" location="/Configs/Batch2/source-no_mask/"/>
+			<File name="visualization.webm" type="WEBM" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-N95/"/>
+			<File name="messages.log" type="log" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-N95/"/>
+			<File name="options.json" type="json" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-N95/"/>
+			<File name="structure.json" type="json" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-N95/"/>
+			<File name="end.png" type="PNG" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-N95/screenshots/"/>
+			<File name="middle.png" type="PNG" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-N95/screenshots/"/>
+			<File name="start.png" type="PNG" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-N95/screenshots/"/>
+		</Files>
+	</Model>
+
+	<Model name="restaurant-no_mask-N95_fit" type="coupled" description="coupled cell-DEVS model for restaurant with emitter wearing no mask and receivers wearing fitted N95 masks">
+		<Files>
+			<File name="restaurant-no_mask-N95_fit.json" type="json" location="/Configs/Batch2/source-no_mask/"/>
+			<File name="visualization.webm" type="WEBM" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-N95_FIT/"/>
+			<File name="messages.log" type="log" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-N95_FIT/"/>
+			<File name="options.json" type="json" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-N95_FIT/"/>
+			<File name="structure.json" type="json" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-N95_FIT/"/>
+			<File name="end.png" type="PNG" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-N95_FIT/screenshots/"/>
+			<File name="middle.png" type="PNG" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-N95_FIT/screenshots/"/>
+			<File name="start.png" type="PNG" location="/Visualization/Batch2/source-NO_MASK/NO_MASK-N95_FIT/screenshots/"/>
+		</Files>
+	</Model>
+
+
+
+	<Model name="restaurant-surgical-no_mask" type="coupled" description="coupled cell-DEVS model for restaurant with emitter wearing surgical mask and receivers wearing no masks">
+		<Files>
+			<File name="restaurant-surgical-no_mask.json" type="json" location="/Configs/Batch2/source-surgical/"/>
+			<File name="visualization.webm" type="WEBM" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-NO_MASK/"/>
+			<File name="messages.log" type="log" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-NO_MASK/"/>
+			<File name="options.json" type="json" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-NO_MASK/"/>
+			<File name="structure.json" type="json" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-NO_MASK/"/>
+			<File name="end.png" type="PNG" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-NO_MASK/screenshots/"/>
+			<File name="middle.png" type="PNG" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-NO_MASK/screenshots/"/>
+			<File name="start.png" type="PNG" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-NO_MASK/screenshots/"/>
+		</Files>
+	</Model>
+
+	<Model name="restaurant-surgical-cotton" type="coupled" description="coupled cell-DEVS model for restaurant with emitter wearing surgical mask and receivers wearing cotton masks">
+		<Files>
+			<File name="restaurant-surgical-cotton.json" type="json" location="/Configs/Batch2/source-surgical/"/>
+			<File name="visualization.webm" type="WEBM" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-COTTON/"/>
+			<File name="messages.log" type="log" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-COTTON/"/>
+			<File name="options.json" type="json" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-COTTON/"/>
+			<File name="structure.json" type="json" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-COTTON/"/>
+			<File name="end.png" type="PNG" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-COTTON/screenshots/"/>
+			<File name="middle.png" type="PNG" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-COTTON/screenshots/"/>
+			<File name="start.png" type="PNG" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-COTTON/screenshots/"/>
+		</Files>
+	</Model>
+
+	<Model name="restaurant-surgical-N95" type="coupled" description="coupled cell-DEVS model for restaurant with emitter wearing surgical mask and receivers wearing unfitted N95 masks">
+		<Files>
+			<File name="restaurant-surgical-N95.json" type="json" location="/Configs/Batch2/source-surgical/"/>
+			<File name="visualization.webm" type="WEBM" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-N95/"/>
+			<File name="messages.log" type="log" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-N95/"/>
+			<File name="options.json" type="json" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-N95/"/>
+			<File name="structure.json" type="json" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-N95/"/>
+			<File name="end.png" type="PNG" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-N95/screenshots/"/>
+			<File name="middle.png" type="PNG" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-N95/screenshots/"/>
+			<File name="start.png" type="PNG" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-N95/screenshots/"/>
+		</Files>
+	</Model>
+
+	<Model name="restaurant-surgical-N95_fit" type="coupled" description="coupled cell-DEVS model for restaurant with emitter wearing surgical mask and receivers wearing fitted N95 masks">
+		<Files>
+			<File name="restaurant-surgical-N95_fit.json" type="json" location="/Configs/Batch2/source-surgical/"/>
+			<File name="visualization.webm" type="WEBM" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-N95_FIT/"/>
+			<File name="messages.log" type="log" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-N95_FIT/"/>
+			<File name="options.json" type="json" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-N95_FIT/"/>
+			<File name="structure.json" type="json" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-N95_FIT/"/>
+			<File name="end.png" type="PNG" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-N95_FIT/screenshots/"/>
+			<File name="middle.png" type="PNG" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-N95_FIT/screenshots/"/>
+			<File name="start.png" type="PNG" location="/Visualization/Batch2/source-SURGICAL/SURGICAL-N95_FIT/screenshots/"/>
+		</Files>
+	</Model>
+
+</Models>

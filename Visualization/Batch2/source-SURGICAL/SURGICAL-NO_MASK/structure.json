@@ -1,0 +1,1 @@
+{"info":{"simulator":"Cadmium","name":"output_messages","type":"Cell-DEVS"},"nodes":[{"name":"vp_cell","type":"coupled","size":[28,31,1]}],"ports":[{"model":"vp_cell","name":"inhaled_particles","type":"output"},{"model":"vp_cell","name":"num_particles","type":"output"},{"model":"vp_cell","name":"type","type":"output"},{"model":"vp_cell","name":"counter","type":"output"}]}
