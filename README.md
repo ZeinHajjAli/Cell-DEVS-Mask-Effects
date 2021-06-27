@@ -1,6 +1,6 @@
-# Scenarios for "Effects of Different Masks on the Spread of Viral Particles"
+# Scenarios for "Spatial Models and Masks in Indoor Analysis for the Spread of COVID-19"
 
-Simulates a number of different scenarios described in the paper titled "Effects of Different Masks on the Spread of Viral Particles". All the scenarios have already been run and the results have been converted into a format that is easier to use with the Web Viewer. The files in the Visualization folder are organized such that you can upload the log file along with both json files to the Web Viewer to visualize the results.
+Simulates a number of different scenarios described in the paper titled "Spatial Models and Masks in Indoor Analysis for the Spread of COVID-19". All the scenarios have already been run and the results have been converted into a format that is easier to use with the Web Viewer. The files in the Visualization folder are organized such that you can upload the log file along with both json files to the Web Viewer to visualize the results.
 
 ## Installation
 
