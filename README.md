@@ -5,9 +5,9 @@ Simulates a number of different scenarios described in the paper titled "Spatial
 ## Installation
 
 1. Make sure you have cadmium installed before proceding, see the [User Manual](http://www.sce.carleton.ca/courses/sysc-5104/lib/exe/fetch.php?media=cadmium.pdf) for more details.
-2. Navigate to **CADMIUM/** directory and run `git clone https://github.com/SimulationEverywhere/Cell-DEVS-Cadmium-Simulation-Environment`
-3. Navigate to **CADMIUM/Cell-DEVS-Cadmium-Simulation-EnvironmentRun/** and run `git submodule update --init --recursive`
-4. Copy the folder this README file is in (Cell-DEVS-Mask-Effects) to **CADMIUM/Cell-DEVS-Cadmium-Simulation-EnvironmentRun/Cadmium-Cell-DEVS-Models/**
+2. Navigate to directory where Cadmium was installed and run `git clone https://github.com/SimulationEverywhere/Cell-DEVS-Cadmium-Simulation-Environment`
+3. Navigate to **/Cell-DEVS-Cadmium-Simulation-Environment/** and run `git submodule update --init --recursive`
+4. Copy the folder this README file is in (Cell-DEVS-Mask-Effects) to **CADMIUM/Cell-DEVS-Cadmium-Simulation-Environment/Cadmium-Cell-DEVS-Models/**
 5. Open a terminal or bash prompt in the copied folder and execute the command 'cmake ./'
 6. If successful, there will be a makefile in the current folder, now execute the command 'make'
 7. If successful, this will create the executable called 'vp'
